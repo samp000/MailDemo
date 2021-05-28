@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.form_container {
+  border: 2px solid black;
+  width: max-content;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+  padding: 100px;
+}
+
+input {
+  padding: 15px;
+  margin: 20px;
+}
+
+input[type="submit"] {
+  background: rgb(35, 211, 255);
+  outline: none;
+  border: none;
+  width: 90%;
+}
